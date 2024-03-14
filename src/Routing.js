@@ -14,10 +14,10 @@ function Routing()
             <Header></Header>
             <Routes>
                 {/* <Route path="/" element={<Getapi></Getapi>}></Route> */}
-                <Route path="/" element={<Postapi></Postapi>}></Route>
-                <Route path="get" element={<Getapi></Getapi>}></Route>
-                <Route path="put" element={<Putapi></Putapi>}></Route>
-                <Route path="delete" element={<Deleteapi></Deleteapi>}></Route>
+                <Route path="/" element={<Getapi></Getapi>}></Route>
+                <Route path="/post" element={<Postapi></Postapi>}></Route>
+                <Route path="/put" element={<Putapi></Putapi>}></Route>
+                <Route path="/delete" element={<Deleteapi></Deleteapi>}></Route>
             </Routes>
             </BrowserRouter>
         </div>

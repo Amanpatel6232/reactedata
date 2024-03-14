@@ -1,21 +1,14 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 
 function Header() {
   return (
     <div>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">NODE PROJECT</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">POST Data</Nav.Link>
-            <Nav.Link href="get">GET Data</Nav.Link>
-            <Nav.Link href="put">PUT Data</Nav.Link>
-            <Nav.Link href="delete">DELETE Data</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <ul>
+        <li><a href='/'>GET Api</a></li>
+        <li><a href='/post'>POST Api</a></li>
+        <li><a href='/put'>PUT Api</a></li>
+        <li><a href='/delete'>DELETE Api</a></li>
+      </ul>
       </div>
   );
 }
