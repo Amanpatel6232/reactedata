@@ -6,8 +6,8 @@ import Routing from './Routing';
 function App() {
   return (
     <div>
-      {/* <Routing></Routing> */}
-      <Postapi></Postapi>
+      <Routing></Routing>
+     
     </div>
   );
 }
