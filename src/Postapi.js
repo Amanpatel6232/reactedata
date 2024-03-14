@@ -10,7 +10,7 @@ function Postapi()
     {
         e.preventDefault()
         const data={rollno,name,marks}
-        fetch("https://nodeproject-rrin.onrender.com",{
+        fetch("https://nodeproject-rrin.onrender.com/",{
             method:"POST",
             headers:{
                 "Accept":"application/json",
